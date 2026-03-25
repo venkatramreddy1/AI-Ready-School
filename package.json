@@ -1,0 +1,22 @@
+{
+  "name": "ai-ready-school-redesign",
+  "version": "1.0.0",
+  "description": "Redesigned homepage for AI Ready School - a K-12 AI education platform",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000"
+  },
+  "keywords": [
+    "education",
+    "ai",
+    "web-design",
+    "responsive",
+    "ui-ux"
+  ],
+  "author": "Design Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/AIReadySchoolRedesign.git"
+  }
+}

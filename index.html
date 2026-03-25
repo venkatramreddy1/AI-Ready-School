@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Ready School - Transform Education with AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-logo">
+                <h1>AI Ready School</h1>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#products">Products</a></li>
+                <li><a href="#why">Why AI Ready</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="https://www.aireadyschool.com/demo" class="btn-primary">Book Demo</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Lead the AI Era in Education</h2>
+                <p>Empower students to think critically, help teachers teach smarter, and transform your school with AI that matters.</p>
+                <div class="hero-cta">
+                    <button class="btn-primary btn-large" onclick="scrollToSection('products')">Explore Products</button>
+                    <a href="https://www.aireadyschool.com/demo" class="btn-secondary btn-large">Schedule a Call</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-visual">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="100" cy="100" r="80" fill="none" stroke="currentColor" stroke-width="2" opacity="0.1"/>
+                        <circle cx="100" cy="100" r="60" fill="none" stroke="currentColor" stroke-width="2" opacity="0.2"/>
+                        <circle cx="100" cy="100" r="40" fill="none" stroke="currentColor" stroke-width="2" opacity="0.3"/>
+                        <circle cx="100" cy="100" r="15" fill="currentColor" opacity="0.6"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Complete AI Ecosystem</h2>
+            <p class="section-subtitle">Four powerful tools, one unified platform for transformative education</p>
+            
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+                            <path d="M20 8v24M8 20h24" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Cypher</h3>
+                    <p class="product-tagline">AI for Students</p>
+                    <ul class="product-features">
+                        <li>Personalized learning support</li>
+                        <li>Guides thinking, not answers</li>
+                        <li>Builds independent thinkers</li>
+                    </ul>
+                    <a href="https://www.aireadyschool.com/cypher" class="link-arrow">Learn More →</a>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="6" y="8" width="28" height="24" rx="2" stroke="currentColor" stroke-width="2"/>
+                            <path d="M10 12v16M20 12v16M30 12v16" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3>Morpheus</h3>
+                    <p class="product-tagline">AI for Teachers</p>
+                    <ul class="product-features">
+                        <li>Lesson plan & content creation</li>
+                        <li>AI-powered assessments</li>
+                        <li>Reduce workload, deepen learning</li>
+                    </ul>
+                    <a href="https://www.aireadyschool.com/morpheus" class="link-arrow">Learn More →</a>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="6" y="6" width="28" height="28" rx="2" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="20" cy="20" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3>Zion</h3>
+                    <p class="product-tagline">30+ AI Tool Suite</p>
+                    <ul class="product-features">
+                        <li>All-in-one AI toolkit</li>
+                        <li>Safe and structured use</li>
+                        <li>Fully integrated tools</li>
+                    </ul>
+                    <a href="https://www.aireadyschool.com/zion" class="link-arrow">Learn More →</a>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 20h24M20 8v24M14 14l12 12M26 14l-12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Neo</h3>
+                    <p class="product-tagline">AI Innovation Lab</p>
+                    <ul class="product-features">
+                        <li>Hands-on AI learning</li>
+                        <li>Robotics & emerging tools</li>
+                        <li>Project-based learning</li>
+                    </ul>
+                    <a href="https://www.aireadyschool.com/neo" class="link-arrow">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Section -->
+    <section id="why" class="why-section">
+        <div class="container">
+            <h2>Why AI Ready School?</h2>
+            <div class="why-grid">
+                <div class="why-item">
+                    <div class="why-number">01</div>
+                    <h3>Transformative, Not Decorative</h3>
+                    <p>AI that rethinks education fundamentally, not just adds technology on top</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-number">02</div>
+                    <h3>Teacher-First Philosophy</h3>
+                    <p>Empower educators, reduce workload, deepen every student's learning</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-number">03</div>
+                    <h3>10,000+ Trust Us</h3>
+                    <p>Students and teachers in leading schools worldwide use our platform</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-number">04</div>
+                    <h3>Privacy & Security First</h3>
+                    <p>On-premise deployment options for schools with data privacy concerns</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Educators Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"The AI-Ready School App is a game-changer. It simplifies routine tasks like generating worksheets, lesson plans, and assignments, while creating engaging content that makes complex topics easier to teach."</p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Mansi Sharma</h4>
+                            <p>TGT English Teacher</p>
+                            <p class="school">NH Goel World School, Chhattisgarh</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Transform Your School?</h2>
+            <p>Join 10,000+ students and teachers creating the future of education</p>
+            <div class="cta-buttons">
+                <a href="https://www.aireadyschool.com/demo" class="btn-primary btn-large">Book a Free Demo</a>
+                <a href="https://www.aireadyschool.com/contact-us" class="btn-secondary btn-large">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>AI Ready School</h4>
+                    <p>Transforming K-12 education with AI that empowers teachers and inspires students.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#products">Our Products</a></li>
+                        <li><a href="https://www.aireadyschool.com/faqs">FAQs</a></li>
+                        <li><a href="https://www.aireadyschool.com/blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="https://www.aireadyschool.com/about-us">About Us</a></li>
+                        <li><a href="https://www.aireadyschool.com/contact-us">Contact</a></li>
+                        <li><a href="https://www.aireadyschool.com/philosophy">Philosophy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AI Ready School. All rights reserved.</p>
+                <p>Powered by <a href="https://learnia.ai/">Learnia</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
